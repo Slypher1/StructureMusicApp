@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">MusicalStructureApp</string>
+
+    <string name="instruction">Tap for play song or press long for view and modify the song\'s properties</string>
+    <string name="song">Song Title</string>
+    <string name="artist">Artist Name</string>
+    <string name="album">Album Name</string>
+    <string name="label_now_playing">Now Playing</string>
+    <string name="label_details">Details</string>
+    <string name="save_button">Save</string>
+    <string name="play_button">Play</string>
+    <string name="properties">Song\'s properties</string>
+
+    <!-- accessibility -->
+    <string name="accessibility_play">play song</string>
+    <string name="accessibility_pause">pause song</string>
+    <string name="accessibility_next">next song</string>
+    <string name="accessibility_previous">previous song</string>
+    <string name="accessibility_shuffle">random song</string>
+    <string name="accessibility_repeat">repeat song</string>
+
+    <!-- songs-->
+    <string name="song1_name">3AM</string>
+    <string name="song1_artist">Matchbox Twenty</string>
+    <string name="song1_album">The Matchbox Twenty Collection</string>
+    <string name="song2_name">All Signs Point to Lauderdale</string>
+    <string name="song2_artist">A Day To Remember</string>
+    <string name="song2_album">What Separates Me from You</string>
+    <string name="song3_name">American Idiot</string>
+    <string name="song3_artist">Green Day</string>
+    <string name="song3_album">American Idiot</string>
+    <string name="song4_name">Breakeven</string>
+    <string name="song4_artist">The Script</string>
+    <string name="song4_album">The Script</string>
+    <string name="song5_name">Carry on Wayward Son</string>
+    <string name="song5_artist">Kansas</string>
+    <string name="song5_album">Leftoverture</string>
+    <string name="song6_name">Flaws</string>
+    <string name="song6_artist">Bastille</string>
+    <string name="song6_album">All This Bad Blood</string>
+    <string name="song7_name">I Believe In A Thing Called Love</string>
+    <string name="song7_artist">The Darkness</string>
+    <string name="song7_album">Permission To Land</string>
+    <string name="song8_name">I Lived</string>
+    <string name="song8_artist">OneRepublic</string>
+    <string name="song8_album">Native</string>
+    <string name="song9_name">Shipwrecked</string>
+    <string name="song9_artist">Alestorm</string>
+    <string name="song9_album">Back Through Time</string>
+    <string name="song10_name">Time Is Running Out</string>
+    <string name="song10_artist">Muse</string>
+    <string name="song10_album">Absolution</string>
+</resources>

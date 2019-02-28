@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicalstructureapp.NowPlayingActivity">
+
+    <ImageView
+        android:id="@+id/cover_now_playing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/alestorm" />
+
+    <include
+        layout="@layout/player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/song_properties_button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/song_properties_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/properties"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:paddingLeft="@dimen/dimen2"
+        android:paddingRight="@dimen/dimen2"/>
+
+</RelativeLayout>

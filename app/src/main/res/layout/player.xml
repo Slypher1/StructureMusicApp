@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/repeat_button"
+        android:contentDescription="@string/accessibility_repeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen1"
+        android:layout_marginTop="@dimen/dimen2"
+        android:src="@drawable/ic_repeat" />
+
+    <ImageView
+        android:id="@+id/previous_button"
+        android:contentDescription="@string/accessibility_previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen1"
+        android:layout_marginTop="@dimen/dimen2"
+        android:src="@drawable/ic_skip_previous" />
+
+    <ImageView
+        android:id="@+id/play_button"
+        android:contentDescription="@string/accessibility_play"
+        android:layout_margin="@dimen/dimen1"
+        android:layout_width="@dimen/dimen4"
+        android:layout_height="@dimen/dimen4"
+        android:src="@drawable/ic_play_circle_filled" />
+
+    <ImageView
+        android:id="@+id/next_button"
+        android:contentDescription="@string/accessibility_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen2"
+        android:layout_marginEnd="@dimen/dimen1"
+        android:src="@drawable/ic_skip_next" />
+
+    <ImageView
+        android:id="@+id/shuffle_button"
+        android:contentDescription="@string/accessibility_shuffle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen2"
+        android:layout_marginEnd="@dimen/dimen1"
+        android:src="@drawable/ic_shuffle" />
+
+</LinearLayout>
